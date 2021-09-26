@@ -116,7 +116,7 @@ namespace Kanyon.ResourceGenerator
                 case "string": return "string";
                 case "number": return "double";
                 case "integer": return "int";
-                case "boolean": return "bool";
+                case "boolean": return "bool?";
                 case "array": 
                     if (value.Items.Reference?.Id != null)
                     {
